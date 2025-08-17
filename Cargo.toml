@@ -18,4 +18,4 @@ travis-ci = { repository = "mattgathu/slugify"}
 appveyor = { repository = "mattgathu/slugify"}
 
 [dependencies]
-unidecode = "0.3.0"
+unidecode = { git = "https://github.com/hamza72x/rust-unidecode", branch = "master" }
